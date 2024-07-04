@@ -1,2 +1,3 @@
 # learn-shell
 shell scripts for DevOps
+# This repo is for DevOps journey.... 
