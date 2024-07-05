@@ -1,1 +1,1 @@
-echo "manu"
+echo "shell scripting data"
