@@ -1,9 +1,14 @@
+#sudo run script
+
+dnf install unzip
+
 dnf module disable nginx -y
 dnf module enable nginx:1.24 -y
 dnf install nginx -y
 
-systemctl enable nginx
-systemctl start nginx
+
+
+cp nginx.conf /etc/nginx/nginx.conf
 
 rm -rf /usr/share/nginx/html/*
 
@@ -13,8 +18,11 @@ cd /usr/share/nginx/html
 
 unzip /tmp/frontend.zip
 
-#write configure file here
+#the directory is now in nginx/before switching directorykeep config file
 
-systemctl restart nginx
 
-systemctl status nginx
+
+
+systemctl enable nginx
+systemctl start nginx
+
