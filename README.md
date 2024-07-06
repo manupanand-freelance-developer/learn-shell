@@ -25,7 +25,7 @@ sed 'ACTION ' file
 ```
 2. Edit the file
 ```
-sed -i 'ACTION' filr
+sed -i 'ACTION' file
 
 ```
 ### Action criteria can be picked in two ways
@@ -35,21 +35,26 @@ sed -i 'ACTION' filr
 Example like , if we wan to delete a line.
 
 For line no criteria
-sed 'l d' file
 
+```sed 'l d' file
+```
 <!-- l- line number, d-delete -->
 
 For search string criteria
 
-sed '/root/ d' file 
+```
+sed '/word/ d' file 
 
-<!-- word-root, and delete -->
+```
+
+<!-- word-, and delete -->
 
 Both the above examles will be just displaying the output, However if we want to edit the file
 
-## Edith the file
+## Edit the file
 
 ```
 sed -i 'ld' file
-sed -i '/root/ d'file
+sed -i '/word/ d'file
+
 ```

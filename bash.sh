@@ -1,16 +1,16 @@
 ls 
 
 ls -l
+ new lines are for inserting as per requirements
 
 ls -l /opt
 
  /host/nkhdfonf/host/
- msdljf dn
- mdffml sdkkld `:wq
+ mdffml sdkkld 
  mansu 
  mansu 
- manu 
  snuru 
  peron 
- sndkhf 
-sed '1 i hello manu' file
+ sndkhf
+touch file.txt && sed -i '2 i\ new line added to new file' file.txt
+
