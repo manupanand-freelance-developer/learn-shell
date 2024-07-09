@@ -19,23 +19,26 @@ echo value from number -$1
 echo all arguments-$*
 echo all arguments count -$#
 echo environment variable z-$z
+## redirectors < input to system > out as file
+ls  -la> out
+# sudo tail -f /var/log/syslog > log
 
 
 
 
-ls 
+# ls 
 
-ls -l
- new lines are for inserting as per requirements
+# ls -l
+#  new lines are for inserting as per requirements
 
-ls -l /opt
+# ls -l /opt
 
- /host/nkhdfonf/host/
- mdffml sdkkld 
- mansu 
- mansu 
- snuru 
- peron 
- sndkhf
-touch file.txt && sed -i '2 i\ new line added to new file' file.txt
+#  /host/nkhdfonf/host/
+#  mdffml sdkkld 
+#  mansu 
+#  mansu 
+#  snuru 
+#  peron 
+#  sndkhf
+# touch file.txt && sed -i '2 i\ new line added to new file' file.txt
 
