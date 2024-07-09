@@ -1,6 +1,8 @@
 #this is for making database server
 #copy repo file /etc/yum.repos.d/mongo.repo
 
+
+
 dnf install mongodb-org -y
 
 #edit mongo config
