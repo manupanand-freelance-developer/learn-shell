@@ -1,15 +1,15 @@
 total 52
 drwxrwxr-x  4 manudev manudev 4096 Jul 11 21:32 .
 drwxrwxr-x 26 manudev manudev 4096 Jul 10 19:53 ..
--rw-rw-r--  1 manudev manudev  410 Jul 11 21:54 01-demo.bash
+-rw-rw-r--  1 manudev manudev  844 Jul 11 22:32 01-demo.bash
 -rwx------  1 manudev manudev  773 Jul  9 19:57 bash.sh
 -rw-rw-r--  1 manudev manudev    0 Jul  9 16:55 file.txt
 -rw-rw-r--  1 manudev manudev  452 Jul  5 21:41 frontend.sh
 -rw-rw-r--  1 manudev manudev  240 Jul  9 12:05 function.sh
-drwxrwxr-x  8 manudev manudev 4096 Jul  9 23:00 .git
+drwxrwxr-x  8 manudev manudev 4096 Jul 11 21:59 .git
 -rw-rw-r--  1 manudev manudev   39 Jul  9 13:46 local.sh
 -rw-rw-r--  1 manudev manudev  223 Jul  9 11:52 mongo.sh
--rw-rw-r--  1 manudev manudev    0 Jul 11 21:56 out
+-rw-rw-r--  1 manudev manudev    0 Jul 11 22:33 out
 -rw-rw-r--  1 manudev manudev  869 Jul  6 21:01 README.md
 -rw-rw-r--  1 manudev manudev   16 Jul  6 21:45 redis.sh
 drwxrwxr-x  2 manudev manudev 4096 Jul  9 13:37 test
