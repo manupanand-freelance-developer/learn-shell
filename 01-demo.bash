@@ -26,7 +26,7 @@ printFail(){
   echo  -e "${RED}$1${NC}"
   echo 
   echo  -e  "\e[33mRefer the log file for more information \e[0m"
-  exit $1 #on failure exit
+  #exit $1 #on failure exit
 }
 printSuccess SUCCESS
 printFail FAILED
@@ -43,3 +43,25 @@ echo  -e  "\e[33mYELLOW\e[0m"
 echo  -e  "\e[34mBLUE\e[0m"
 echo  -e  "\e[35mMAGENTA\e[0m"
 echo  -e  "\e[36mCYAN\e[0m"
+#  new line 
+echo -e "hello \n world"
+echo -e "hello \t world"
+# quotes when to use 
+# other than a-z,0-9, _: any secial character on command or input
+#
+echo *
+echo "*"
+a=15
+echo 'a is $a'
+echo "a is $a"
+#loops-while if we have expression we use while
+#if we have inputs we use for
+i=10
+while [ $i -gt 0 ];do 
+  echo Hello -$i
+  i=$(($i-1))
+done
+  
+  for i in apple banana orange; do
+  echo fruit name - $i
+  done

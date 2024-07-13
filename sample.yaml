@@ -1,0 +1,11 @@
+- name: Some Playbook
+  hosts: all
+  tasks:
+    -name: Demo task
+    ansible.builtin.yum:
+    name : nginx
+    state : installed
+- name : Some role play
+  hosts: all
+  roles:
+    -demo
