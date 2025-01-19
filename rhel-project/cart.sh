@@ -1,3 +1,3 @@
 source common.sh
-component=user
+component=cart
 NODE_JS
