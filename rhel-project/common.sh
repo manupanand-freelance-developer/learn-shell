@@ -2,6 +2,7 @@
 
 LOG_FILE=/tmp/roboshop.log
 rm -rf $LOG_FILE
+core_dir=$(pwd)
 
 RED= '\033[0;31m'
 GREEN='\033[0;32m'

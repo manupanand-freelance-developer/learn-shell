@@ -29,9 +29,10 @@ PRINT Install mysql
 dnf install mysql -y
 STATUS
 PRINT Copying database files 
-mysql -h mysql.dev.manupanand.online -uroot -pRoboShop@1 < /app/db/schema.sql
-mysql -h mysql.dev.manupanand.online -uroot -pRoboShop@1 < /app/db/app-user.sql 
-mysql -h mysql.dev.manupanand.online -uroot -pRoboShop@1 < /app/db/master-data.sql
+for file in schema app-user master-data ; do
+PRINT Copying database files - $file.sql
+mysql -h mysql.dev.project.online -uroot -pRoboShop@1 < /app/db/$file.sql
+done
 STATUS
 PRINT Start shipping service
 systemctl daemon-reload
