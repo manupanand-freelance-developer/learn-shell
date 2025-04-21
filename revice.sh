@@ -6,4 +6,6 @@ echo 'hello manu'
 #
 #stdout >
 #
-#stderr 
+#append>>
+#stderr 2>file
+#/dev/null - nullify output 
