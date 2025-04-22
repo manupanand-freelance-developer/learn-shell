@@ -22,4 +22,7 @@ printf "%.1f\n" 256
 
 for i in $(seq 1 10);do printf "%04d\t" "$i"; done
 
-exit 220
+printf "%d\n" 255 0xff 0377
+#
+#line starting with l from regexfile
+grep '^l' regexfile
