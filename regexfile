@@ -8,7 +8,123 @@ annabelle
 banana
 bananna
 bt
-bot
+bet
 boot
 boat
 booooot
+root:x:0:0:root:/root:/bin/bash
+n/AN/
+daemon:x:1:1:daemon:/user/sbin:/usr/sbin/nologin
+n/AN/
+bin:x:2:2:bin:/bin:/user/sbin/nologin
+n/AN/
+sys:x:3:3:sys:/dev:/user/sbin/nologin
+n/AN/
+sync:x:4:65534:sync:/bin:/bin/sync
+n/AN/
+games:x:5:60:games:/user/games:/usr/sbin/nologin
+n/AN/
+man:x:6:12:man:/var/cache/man:/user/sbin/nologin
+n/AN/
+lp:x:7:7:lp:/var/spool/lpd:/user/sbin/nologin
+n/AN/
+mail:x:8:8:mail:/var/mail:/user/sbin/nologin
+n/AN/
+news:x:9:9:news:/var/spool/news:/user/sbin/nologin
+n/AN/
+uucp:x:10:10:uucp:/var/spool/uucp:/user/sbin/nologin
+n/AN/
+proxy:x:13:13:proxy:/bin:/user/sbin/nologin
+n/AN/
+www-data:x:33:33:www-data:/var/www:/user/sbin/nologin
+n/AN/
+backup:x:34:34:backup:/var/backups:/user/sbin/nologin
+n/AN/
+list:x:38:38:Mailing List Manager:/var/list:/user/sbin/nologin
+n/AN/
+irc:x:39:39:ircd:/run/ircd:/user/sbin/nologin
+n/AN/
+_apt:x:42:65534::/nonexistent:/user/sbin/nologin
+n/AN/
+nobody:x:65534:65534:nobody:/nonexistent:/user/sbin/nologin
+n/AN/
+systemd-network:x:998:998:systemd Network Management:/:/user/sbin/nologin
+n/AN/
+systemd-timesync:x:996:996:systemd Time Synchronization:/:/user/sbin/nologin
+n/AN/
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/user/lib/dhcpcd:/bin/false
+n/AN/
+messagebus:x:101:101::/nonexistent:/user/sbin/nologin
+n/AN/
+syslog:x:102:102::/nonexistent:/user/sbin/nologin
+n/AN/
+systemd-resolve:x:991:991:systemd Resolver:/:/user/sbin/nologin
+n/AN/
+uuidd:x:103:103::/run/uuidd:/user/sbin/nologin
+n/AN/
+usbmux:x:104:46:usbmux daemon,,,:/var/lib/usbmux:/user/sbin/nologin
+n/AN/
+tss:x:105:105:TPM software stack,,,:/var/lib/tpm:/bin/false
+n/AN/
+systemd-oom:x:990:990:systemd Userspace OOM Killer:/:/user/sbin/nologin
+n/AN/
+kernoops:x:106:65534:Kernel Oops Tracking Daemon,,,:/:/user/sbin/nologin
+n/AN/
+whoopsie:x:107:109::/nonexistent:/bin/false
+n/AN/
+dnsmasq:x:999:65534:dnsmasq:/var/lib/misc:/user/sbin/nologin
+n/AN/
+avahi:x:108:111:Avahi mDNS daemon,,,:/run/avahi-daemon:/user/sbin/nologin
+n/AN/
+tcpdump:x:109:112::/nonexistent:/user/sbin/nologin
+n/AN/
+sssd:x:110:113:SSSD system user,,,:/var/lib/sss:/user/sbin/nologin
+n/AN/
+speech-dispatcher:x:111:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+n/AN/
+cups-pk-helper:x:112:114:user for cups-pk-helper service,,,:/nonexistent:/user/sbin/nologin
+n/AN/
+fwupd-refresh:x:989:989:Firmware update daemon:/var/lib/fwupd:/user/sbin/nologin
+n/AN/
+saned:x:113:116::/var/lib/saned:/user/sbin/nologin
+n/AN/
+geoclue:x:114:117::/var/lib/geoclue:/user/sbin/nologin
+n/AN/
+cups-browsed:x:115:114::/nonexistent:/user/sbin/nologin
+n/AN/
+hplip:x:116:7:HPLIP system user,,,:/run/hplip:/bin/false
+n/AN/
+polkitd:x:988:988:User for polkitd:/:/user/sbin/nologin
+n/AN/
+rtkit:x:117:119:RealtimeKit,,,:/proc:/user/sbin/nologin
+n/AN/
+colord:x:118:120:colord colour management daemon,,,:/var/lib/colord:/user/sbin/nologin
+n/AN/
+gnome-initial-setup:x:119:65534::/run/gnome-initial-setup/:/bin/false
+n/AN/
+gdm:x:120:121:Gnome Display Manager:/var/lib/gdm3:/bin/false
+n/AN/
+nm-openvpn:x:121:122:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/user/sbin/nologin
+n/AN/
+gnome-remote-desktop:x:985:985:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/user/sbin/nologin
+n/AN/
+manudev:x:1000:1000:devopsuser:/home/manudev:/bin/bash
+n/AN/
+sshd:x:122:65534::/run/sshd:/user/sbin/nologin
+n/AN/
+snort:x:123:125:Snort IDS:/var/log/snort:/user/sbin/nologin
+n/AN/
+postfix:x:124:126::/var/spool/postfix:/user/sbin/nologin
+n/AN/
+clamav:x:125:128::/var/lib/clamav:/bin/false
+n/AN/
+postgres:x:126:129:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+n/AN/
+mongodb:x:127:65534::/nonexistent:/user/sbin/nologin
+n/AN/
+swtpm:x:128:131:virtual TPM software stack,,,:/var/lib/swtpm:/bin/false
+n/AN/
+libvirt-qemu:x:64055:993:Libvirt Qemu,,,:/var/lib/libvirt:/user/sbin/nologin
+n/AN/
+libvirt-dnsmasq:x:129:133:Libvirt Dnsmasq,,,:/var/lib/libvirt/dnsmasq:/user/sbin/nologin
+n/AN/
