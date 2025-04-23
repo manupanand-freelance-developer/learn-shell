@@ -3,9 +3,12 @@
 #
 #Installation script
 
-if [ grep 'ubuntu' /etc/os-release ]
-then
+if  grep -iq 'ubuntu' /etc/os-release;then
+	PACKAGE_MANAGER=apt
+
+fi
+if  grep -iq 'red hat' /etc/os-release;then
 	PACKAGE_MANAGER=yum
 fi
-if  [ grep 'rhel' /etc/os-release ]
-then
+
+sudo $PACKAGE_MANAGER install $1 -y
