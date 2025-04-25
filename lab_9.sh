@@ -13,9 +13,9 @@ then
 	 echo  3
 fi
 
-sudo dnf install -y "$@"
+echo "sudo dnf install -y "$@""
 
 for s in "$@"
 do 
-	 sudo systemctl enable --now $s
+	echo " sudo systemctl enable --now $s"
 done
