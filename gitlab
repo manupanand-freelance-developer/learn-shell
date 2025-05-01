@@ -1,0 +1,36 @@
+#!/bin/bash
+
+
+# Installing gitlab on server
+sudo apt-get update
+sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
+sudo apt-get install -y postfix
+
+# install gitlab repository
+curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+
+# install gitlab-ce
+sudo apt install -y gitlab-ce
+
+#sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install -y gitlab-ce
+
+
+# config
+#sudo vim /etc/gitlab/gitlab.rb
+
+# edit the external_url 'https://yourexample@url.com'
+
+sudo gitlab-ctl reconfigure
+
+# fetch root password
+#sudo cat /etc/gitlab/initial_root_password>>password copy
+#root as username
+#password
+#>> deactivate public signup
+
+#tls
+# sudo vim /etc/gitlab/gitlab.rb https in external utl
+# letsencrypt['enable']= true
+# letsencrypt['contact_emails']=['contactemail.email.com']
+# letsencrypt['auto_renew']=true # if want to renew certificate auto renew per hour day etc... do toters necessary
+# sudo gitlab-ctl reconfigure
