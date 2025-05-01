@@ -2,11 +2,11 @@
 
 # install  bit bucket
 
-# reequirement -psql or mysql
+# reequirement -psql or mysql for production
 
 curl -LO https://www.atlassian.com/software/stash/downloads/binary/atlassian-bitbucket-9.6.1-x64.bin 
 
 
-sudo chmod +x atlassian-bitbucket-9.6.1-x64.bin 
+sudo chmod a+x atlassian-bitbucket-9.6.1-x64.bin 
 
 sudo ./atlassian-bitbucket-9.6.1-x64.bin 
