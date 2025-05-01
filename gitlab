@@ -20,7 +20,7 @@ sudo apt install -y gitlab-ce
 
 # edit the external_url 'https://yourexample@url.com'
 
-sudo gitlab-ctl reconfigure
+#sudo gitlab-ctl reconfigure
 
 # fetch root password
 #sudo cat /etc/gitlab/initial_root_password>>password copy
