@@ -14,12 +14,19 @@ sudo apt update
 # to make other user able to execute docker commands 
 # sudo chmod 666 /var/run/docker.sock
 # run sonarqube in docker
+# https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.4.0.105899.zip
+# https://docs.sonarsource.com/sonarqube-community-build/setup-and-upgrade/installing-sonarqube-from-zip-file/
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 # default username is admin , password is admin |change it 
 # Install Nexus repo on server
 sudo apt update
 # install docker
-# to make other user able to execute docker commands 
+# to make other user able to execute docker commands
+# unix -https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/3/nexus-3.79.1-04-linux-x86_64.tar.gz
+# tar xvzf nexus-3.79.1-04-linux-x86_64.tar.gz
+# ./nexus-3.78.0-14
+#./sonatype-work
+#https://help.sonatype.com/en/run-as-a-service.html
 # sudo chmod 666 /var/run/docker.sock
 docker run -d --name nexus -p 8081:8081 sonatype/nexus3
 # login user name is admin, passsword is inside container /nexus-data/admin.password
@@ -38,6 +45,11 @@ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt-get update
 sudo apt-get install jenkins
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+# rhel rpm package https://download.oracle.com/java/24/latest/jdk-24_linux-x64_bin.rpm
+# sudo dnf install jdk-24_linux-x64_bin.rpm
 # install docker also
 # jenkins is running on port  8080
 # prompt for password
